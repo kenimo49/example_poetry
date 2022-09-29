@@ -25,6 +25,11 @@ poetry add library_name
 ```
 poetry.lockファイルが作成される
 
+whlファイルのinstall 
+```
+poetry add dist/kenimo_lib-0.1-py3-none-any.whl
+```
+
 ### ライブラリの削除
 ```
 poetry remove library_name
