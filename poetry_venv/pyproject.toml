@@ -8,6 +8,7 @@ packages = [{include = "poetry_venv"}, { include="script" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+kenimo-lib = {path = "dist/kenimo_lib-0.1-py3-none-any.whl"}
 
 
 [build-system]

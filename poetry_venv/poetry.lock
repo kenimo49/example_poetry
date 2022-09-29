@@ -1,8 +1,21 @@
-package = []
+[[package]]
+name = "kenimo-lib"
+version = "0.1"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.source]
+type = "file"
+url = "dist/kenimo_lib-0.1-py3-none-any.whl"
 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "935b488be9f11b23f14aa1ce3bed4013d88bd77462534b5e4fe5bb82b485bfe9"
+content-hash = "4c5912c8b5d17809c3ff2f9ed908f4141ac4d0c09fa7b8e9bb4dade1b6fab6fc"
 
 [metadata.files]
+kenimo-lib = [
+    {file = "kenimo_lib-0.1-py3-none-any.whl", hash = "sha256:d0aa099316a9f3d9612c67e9ed2e4b919d8a7c5c4dc65e7371cfff47b51653e5"},
+]
